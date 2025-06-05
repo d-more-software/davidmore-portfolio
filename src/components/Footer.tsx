@@ -11,7 +11,7 @@ const Footer = () => {
 				</div>
 				<div className="flex gap-6 items-center">
 					<a
-						href="https://www.linkedin.com/in/david-more/"
+						href="https://www.linkedin.com/in/david-more-soft/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="btn btn-ghost btn-circle"
