@@ -1,13 +1,19 @@
 import { Mail, Linkedin, Github } from "lucide-react";
 
-
 const Footer = () => {
 	return (
-		<footer className="bg-base-200 py-6 mt-10">
-			<div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-4">
-				<div className="text-sm text-base-content text-center md:text-left">
-					© {new Date().getFullYear()} David More. All rights
-					reserved.
+		<footer className="bg-base-200 py-6 mt-10 text-sm text-base-content">
+			<div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 px-4 text-center md:text-left">
+				<div>
+					<p>
+						© {new Date().getFullYear()} D-MORE SOFTWARE LTD. All rights reserved.
+					</p>
+					<p className="mt-1">
+						Registered in England and Wales – Company No.   16539177
+					</p>
+					<p className="mt-1">
+						Registered office: 71-75 Shelton Street, London WC2H 9JQ, UK
+					</p>
 				</div>
 				<div className="flex gap-6 items-center">
 					<a
